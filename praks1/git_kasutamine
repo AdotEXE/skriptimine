@@ -1,0 +1,18 @@
+* root kasutajane:
+installi - apt-get install git
+* tavakasutajane:
+esmakordselt:
+
+a) seadista - maara kasutajanime, email, editor
+git config --global user.name "Ees Perenimi"
+git config --global user.email kasutaja@nimi
+gir config --global core.editor nano
+
+b)loo kataloogi, kus hakkad skriptima
+mkdir skriptimine
+
+c) sisene antud kausta
+cd skriprimine
+
+d) tekita loaalne repositoorium git süsteemi jaaoks antud kaustas
+git init
