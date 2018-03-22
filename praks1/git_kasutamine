@@ -16,3 +16,15 @@ cd skriprimine
 
 d) tekita loaalne repositoorium git süsteemi jaaoks antud kaustas
 git init
+
+remote seadistamine:
+
+a) git remote add nimi aadress
+git remote add skriptimine https://github.com/AdotEXE/skriptimine.git
+
+b) git remote kontroll
+git remote -v
+
+
+
+ljhiubuih
