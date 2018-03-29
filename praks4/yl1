@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+#Tervitus
+#
+echo -n "Sisesta oma ees- ja perenimi:"
+read  Jevgeni Avramtsuk
+echo -n "Sinu eesnimi on $Eesnimi ja perenimi on $Perenimi"
+#
+#

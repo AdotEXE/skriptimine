@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+#Tort
+#
+# Kandiku pindala
+echo -n "Sisestsge kandiku pikkus"
+read pikkus 
+echo -n "Sisestage kandiku laius"
+read laius
+kandik=`expr $pikkus \* $laius`
+#kypsise pindala
+echo -n "Kypsiste pikkus:"
+read ky_pikkus
+echo -n "Kypsiste suurus:"
+read ky_suurus
+kypsis=`expr $ky_pikkus \* $ky_suurus`
+echo -n "Mitu kihti teete?:"
+read kiht
+echo -n "Mitu küpsist on ühes pakkis?:"
+read kypsiseid pakis
+yhes_kihis=`expr $kandik / $kypsis`
+#

@@ -1,7 +1,0 @@
-#!/bin/bash
-#
-#.log
-#
-find /var/ -name "*.log" 2>>/dev/null -exec wc -l {} \; | sort -n -r #leiad /var/ kaustast kõik, mis lõppevad *.log-ga ja vead saadab /dev/null-i -exec ja siis wordcount -l naitab mitu faili on kokku | sorteerib kahanevalt 
-#
-#lõpp 
