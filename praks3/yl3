@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# kaua masin on tööl olnud
+#
+echo -n `hostname`
+echo -n " at " 
+echo -e `uptime | cut -f1 -d","`
+#
+#lõpp
