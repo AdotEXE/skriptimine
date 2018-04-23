@@ -1,8 +1,5 @@
+
 #!/bin/bash
-#
-#Algus
-#
-#Aja teade
 
 echo -e "Sisesta aeg tundides: \c"
 read aeg
@@ -20,10 +17,3 @@ elif [ $aeg -ge 24 -a $aeg -lt 6 ]; then
 else
         echo "error"
 fi
-
-#
-#Lõpp
-#
-
-
-
